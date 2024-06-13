@@ -10,7 +10,7 @@ COVERTOVERT
    :maxdepth: 2
    :caption: Contents:
 
-
+   docs/covert
 
 Indices and Tables
 ==================
