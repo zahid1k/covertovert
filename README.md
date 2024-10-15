@@ -27,3 +27,7 @@ docker exec -it client bash
 ```
 
 The local "code" folder is mapped to the "/app" folder in containers and the local "examples" folder is mapped to the "/examples" folder in the container. You can develop your code on your local folders on your own host machine, they will be immediately synchronized with the "/app" folder on containers. The volumes are created in read-write mode, so changes can be made both on the host or on the containers. You can run your code on the containers...
+
+# Documentation
+
+You need to install [Sphinx](https://www.sphinx-doc.org/en/master/) and LaTeX for building the project documents.

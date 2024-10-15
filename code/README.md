@@ -1,0 +1,1 @@
+Please develop your project in this folder which will be mapped to the /app folder in the Docker container.
