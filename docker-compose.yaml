@@ -4,8 +4,8 @@ services:
       dockerfile: docker/Dockerfile
       context: .
     image: covertovert:latest
-    hostname: server
-    container_name: server
+    hostname: receiver
+    container_name: receiver
     privileged: true
     cap_add:
       - NET_ADMIN
@@ -19,8 +19,8 @@ services:
       dockerfile: docker/Dockerfile
       context: .
     image: covertovert:latest
-    hostname: client
-    container_name: client
+    hostname: sender
+    container_name: sender
     privileged: true
     cap_add:
       - NET_ADMIN
