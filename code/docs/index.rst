@@ -6,8 +6,10 @@
 Basic ICMP Documentation
 ========================
 
-Please add your names and group ID here by editing `index.rst` in the docs folder.
+Mehmet Zahid Kalaycı
+Bahar Güneş
 
+Group 12
 
 .. toctree::
    :maxdepth: 2
